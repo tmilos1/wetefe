@@ -1,0 +1,7 @@
+PORT = 3001
+
+[db]
+    storage = ./data/wtf.sqlite
+    dialect = sqlite
+    logging = false
+    syncModels = false
